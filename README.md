@@ -1,0 +1,1 @@
+docker build -t brarmani/nodejs-image-demo-csat-1 .
