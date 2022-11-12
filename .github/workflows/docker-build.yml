@@ -48,4 +48,4 @@ jobs:
           push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Image digest
-        run: echo${{steps.docker-build.outputs.digest}}
+        run: echo${{steps.buildx.outputs.digest}}
